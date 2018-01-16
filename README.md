@@ -31,6 +31,16 @@ yarn test
 npm test
 ```
 
+### With coverage
+
+```bash
+yarn test --coverage
+```
+
+```bash
+npm run test -- --coverage
+```
+
 ## ESLint
 
 Running ESLint
