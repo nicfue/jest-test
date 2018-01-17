@@ -11,5 +11,5 @@ it('simulate login failed', () => {
 it('simulate login success', () => {
   const fakeLogin = jest.fn();
   const wrapper = mount(<Login loginSuccessful={fakeLogin} />);
-
+  // expect(wrapper.mock.calls.length).toEqual(1)
 });
