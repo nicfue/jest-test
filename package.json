@@ -21,6 +21,7 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
+    "coveralls": "^3.0.0",
     "eslint": "4.15.0",
     "eslint-config-airbnb": "16.1.0",
     "eslint-config-prettier": "2.9.0",
@@ -37,9 +38,9 @@
     ],
     "coverageThreshold": {
       "global": {
-        "branches": 100,
-        "functions": 100,
-        "lines": 100,
+        "branches": 80,
+        "functions": 80,
+        "lines": 80,
         "statements": 0
       }
     }
